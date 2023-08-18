@@ -15,8 +15,7 @@ const images = [
      "https://www.britishceramictile.com/image?w=970&h=545&fit=crop-50-50&src=production%2Fcms%2Fprocessed%2F3b3b4e43ff07974f9ced5d3e5043ee54.jpg&s=9a692a2e157f74b06360c149b23159e3",
      "https://www.betterbathrooms.com/Images/BeBa_15641_1_supersize.jpg?v=2",
      "https://5.imimg.com/data5/SELLER/Default/2021/8/BL/NL/VR/135337296/bathroom-wall-tiles.jpg",
-     "https://cottagelife.com/wp-content/uploads/2021/01/shutterstock_50943826.jpg",
-      "https://static5.depositphotos.com/1026645/398/i/450/depositphotos_3982522-Bathroom-with-shower-corner.jpg",
+    
 ]
 const toggleFullscreen = (image) => {
   if (fullscreenImage === image) {
@@ -29,13 +28,11 @@ const toggleFullscreen = (image) => {
   return (
     <>
     <Heading textAlign="center" color="blue.800" m="5px">Pogledajte samo neke od slika nasih radova</Heading>
-    <SimpleGrid p="10px" spacing={10} minChildWidth="30rem" mx="auto" h="auto">
+    <SimpleGrid spacing={10} minChildWidth={300} >
     {images.map((image,index)=> (
         
           <Box
           key={index}
-          h="550px"
-          w="600px"
           onClick={() => toggleFullscreen(image)}
           style={{ cursor: 'pointer' }}
           >
