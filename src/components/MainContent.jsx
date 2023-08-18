@@ -7,13 +7,11 @@ import ImageSlider from './ImageSlider'
 const MainContent = () => {
 
   const images = [
- 
      `https://www.tilemountain.co.uk/img/2300/2300/resize/catalog/product/m/a/marmy-grey-442805-roomset.jpg`,
      `https://www.waxmantileshowroom.co.uk/wp-content/uploads/2022/04/20211029_073615-min.jpg`,
      `https://www.designlike.com/wp-content/uploads/2021/02/pexels-photo-6207818.jpeg`,
      `https://images.squarespace-cdn.com/content/v1/5820b938d482e9a9a7034dea/1617042868545-R5DGOSU4AXPP7W0WMY73/pexels-photo-1457847.jpg`,
      `https://nikondia.com/n/wp-content/uploads/2019/04/pexels-max-vakhtbovych-7031620.jpg`
-     
   ];
 
   return (

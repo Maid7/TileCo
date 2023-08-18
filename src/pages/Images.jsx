@@ -5,18 +5,18 @@ import { SimpleGrid,Box,Heading} from '@chakra-ui/react'
 const Images = () => {
   const [fullscreenImage, setFullscreenImage] = useState(null);
 const images = [
-  "/src/images/assets/20210709_143538.jpg",
-  "/src/images/assets/20210709_143557.jpg",
-  "/src/images/assets/20210709_143605.jpg",
-  "/src/images/assets/20210711_131052.jpg",
-  "/src/images/assets/20210716_115620.jpg",
-  "/src/images/assets/20220528_080358.jpg",
-  "/src/images/assets/20220528_080401.jpg",
-  "/src/images/assets/20220528_080443.jpg",
-  "/src/images/assets/20220528_080516.jpg",
-  "/src/images/assets/20220531_094834.jpg",
-  "/src/images/assets/20220602_174722.jpg",
-  "/src/images/assets/20220610_151748.jpg"
+  "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+  "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+   "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+   "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+   "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+    "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+     "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+     "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+     "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+     "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+     "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
+      "https://cdn.mos.cms.futurecdn.net/BPdZxKcA8Dc8xW4uxjWLGY.jpg",
 ]
 const toggleFullscreen = (image) => {
   if (fullscreenImage === image) {
@@ -29,7 +29,7 @@ const toggleFullscreen = (image) => {
   return (
     <>
     <Heading textAlign="center" color="blue.800" m="5px">Pogledajte samo neke od slika nasih radova</Heading>
-    <SimpleGrid p="10px" spacing={10} minChildWidth="30em" mx="auto" h="auto">
+    <SimpleGrid p="10px" spacing={10} minChildWidth="30rem" mx="auto" h="auto">
     {images.map((image,index)=> (
         
           <Box
