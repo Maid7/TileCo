@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text,Box,Flex,Button} from '@chakra-ui/react'
-import heroImage from "../../public/images/hero-imagee.jpg"
+import heroImage from "../images/hero-imagee.jpg"
 import ModalComponent from '../components/ModalComponent'
 import MainContent from '../components/MainContent'
 

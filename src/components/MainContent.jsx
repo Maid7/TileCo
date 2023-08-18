@@ -1,6 +1,5 @@
 import { Flex,Box,Heading ,Text} from '@chakra-ui/react'
 import React from 'react'
-import heroImage from "../../public/images/hero-imagee.jpg"
 import TabsComponent from './TabsComponent'
 import WorkProcess from './WorkProcess'
 import ImageSlider from './ImageSlider'
